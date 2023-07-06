@@ -18,4 +18,5 @@ public class BrowserWindowsTests extends TestBase {
         new BrowserWindowsPage(wd).switchToNewWindow(1)
                 .assertNewWindowMessage("This is a sample page");
     }
-}
+
+  }
