@@ -39,5 +39,14 @@ public class SelectTests extends TestBase {
                 "Another root option"
         } , 5);
     }
+    @Test
+    public void selectOneTest() {
+        new SelectMenuPage(wd).selectOne(new String[]{"Dr.",
+                "Mr.",
+                "Mrs.",
+                "Prof.",
+                "Other",
+        } , 4);
+    }
 
 }

@@ -67,5 +67,13 @@ public class SelectMenuPage extends BasePage {
         reactSelect2Input.sendKeys(Keys.ENTER);
         return this;
     }
+    @FindBy (id = "react-select-3-input")
+    WebElement reactSelect3Input;
+
+    public SelectMenuPage selectOne(String[] groups, int variant) {
+        reactSelect3Input.sendKeys(groups[variant]);
+        reactSelect3Input.sendKeys(Keys.ENTER);
+        return this;
+    }
 
 }
