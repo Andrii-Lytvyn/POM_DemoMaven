@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42f3fa5f-4f01-4cb3-a6a1-a630d1b6a869" name="Changes" comment="" />
+    <list default="true" id="42f3fa5f-4f01-4cb3-a6a1-a630d1b6a869" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/PracticeFormPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/PracticeFormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/PracticeFormTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +23,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -45,8 +50,8 @@
       <recent name="com.demoqa.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SelectTests.selectOneTest">
-    <configuration name="SelectTests.multiSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.com.demoqa.tests">
+    <configuration name="BrowserWindowsTests.openNewWindowTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_DemoMaven" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +60,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.SelectTests" />
-      <option name="METHOD_NAME" value="multiSelectTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.BrowserWindowsTests" />
+      <option name="METHOD_NAME" value="openNewWindowTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -64,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTests.selectOldStyleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PracticeFormTests.fillPracticeFormWithFinalData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_DemoMaven" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +78,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.SelectTests" />
-      <option name="METHOD_NAME" value="selectOldStyleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.PracticeFormTests" />
+      <option name="METHOD_NAME" value="fillPracticeFormWithFinalData" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -118,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectTests.standartMultiSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="com.demoqa.tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_DemoMaven" />
       <extension name="coverage">
         <pattern>
@@ -127,9 +132,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.SelectTests" />
-      <option name="METHOD_NAME" value="standartMultiSelectTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
       <properties />
       <listeners />
       <method v="2">
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.com.demoqa.tests" />
+        <item itemvalue="TestNG.PracticeFormTests.fillPracticeFormWithFinalData" />
+        <item itemvalue="TestNG.BrowserWindowsTests.openNewWindowTest" />
         <item itemvalue="TestNG.SelectTests.selectOneTest" />
         <item itemvalue="TestNG.SelectTests.selectValueTest" />
-        <item itemvalue="TestNG.SelectTests.standartMultiSelectTest" />
-        <item itemvalue="TestNG.SelectTests.multiSelectTest" />
-        <item itemvalue="TestNG.SelectTests.selectOldStyleTest" />
       </list>
     </recent_temporary>
   </component>

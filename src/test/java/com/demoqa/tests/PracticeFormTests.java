@@ -19,8 +19,8 @@ public class PracticeFormTests extends TestBase {
         new PracticeFormPage(wd).hideAd();
         new PracticeFormPage(wd).enterPersonalData("John", "Wick", "boogieman@gmail.com", "0123456789")
                 .selectGender("Male")
-               // .typeData("17 May 2000")
-                .selectDate("May","1963","13")
+                // .typeData("17 May 2000")
+                .selectDate("May", "1963", "13")
                 .addSubject(new String[]{"Math", "English", "Chemistry"})
                 .selectHobby(new String[]{"Sports", "Reading", "Music"})
                 .uploadFile("C:/Tools/vine.jpg")
@@ -28,7 +28,6 @@ public class PracticeFormTests extends TestBase {
                 .selectState("NCR")
                 .selectCity("Delhi")
                 .submit();
-
     }
 
     @Test
@@ -45,6 +44,7 @@ public class PracticeFormTests extends TestBase {
                 .selectState(StudentData.STATE)
                 .selectCity(StudentData.CITY)
                 .submit();
-
+        new PracticeFormPage(wd).assertNewWindowRegistrationMessage("Thanks for submitting the form");
     }
+
 }

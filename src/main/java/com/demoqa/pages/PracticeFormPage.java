@@ -6,7 +6,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class PracticeFormPage extends BasePage {
     public PracticeFormPage(WebDriver wd) {
@@ -141,9 +145,10 @@ public class PracticeFormPage extends BasePage {
     WebElement submit;
 
     public PracticeFormPage submit() {
-        clickWithRectangle(submit,2,3);
+        clickWithRectangle(submit, 2, 3);
         return this;
     }
+
     @FindBy(css = ".react-datepicker__month-select")
     WebElement month;
     @FindBy(css = ".react-datepicker__year-select")
@@ -160,6 +165,16 @@ public class PracticeFormPage extends BasePage {
 
         wd.findElement(By.xpath("//div[.='" + day + "']")).click();
 
+        return this;
+    }
+
+
+    @FindBy(id = "example-modal-sizes-title-lg")
+    WebElement exampleModal;
+
+    public PracticeFormPage assertNewWindowRegistrationMessage(String text) {
+        wd.switchTo().parentFrame();
+        Assert.assertTrue(shouldHaveText(exampleModal, text, 15));
         return this;
     }
 }
