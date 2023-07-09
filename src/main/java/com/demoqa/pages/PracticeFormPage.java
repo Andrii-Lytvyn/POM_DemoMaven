@@ -171,10 +171,18 @@ public class PracticeFormPage extends BasePage {
 
     @FindBy(id = "example-modal-sizes-title-lg")
     WebElement exampleModal;
+    @FindBy (id = "closeLargeModal")
+    WebElement closeLargeModal;
+    @FindBy (id = "close-fixedban")
+    WebElement closeFixedban;
 
     public PracticeFormPage assertNewWindowRegistrationMessage(String text) {
         wd.switchTo().parentFrame();
         Assert.assertTrue(shouldHaveText(exampleModal, text, 15));
+       // click(closeFixedban);
+       // click(closeLargeModal);
+       // clickWithJSExecutor(closeLargeModal,0,600);
+       // clickWithRectangle(closeLargeModal,3,6);
         return this;
     }
 }
