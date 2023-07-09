@@ -33,7 +33,7 @@ public class AlertsTests extends TestBase {
 
     @Test
     public void onButtonClickConfirmBoxTest() {
-        new AlertsPage(wd).onButtonClickConfirmBox(false);
+        new AlertsPage(wd).onButtonClickConfirmBox(true);
     }
 
 }

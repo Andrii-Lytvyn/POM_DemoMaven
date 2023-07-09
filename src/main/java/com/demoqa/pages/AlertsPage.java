@@ -77,25 +77,26 @@ public class AlertsPage extends BasePage {
         clickWithJSExecutor(confirmButton, 0, 300);
         if (solution) {
             wd.switchTo().alert().accept();
-            Assert.assertTrue(AP.isTextCorrect());
-        }else {
+            Assert.assertTrue(AP.isTextCorrect(solution));
+        } else {
             wd.switchTo().alert().dismiss();
-            Assert.assertTrue(AP.isTextCancelCorrect());
+            Assert.assertTrue(AP.isTextCorrect(solution));
         }
         return this;
     }
 
-    public boolean isTextCorrect() {
+    public boolean isTextCorrect(boolean solution) {
         String text = confirmResult.getText();
-        if (text.equalsIgnoreCase("You selected Ok")) {
-            return true;
-        } else return false;
-    }
-
-    public boolean isTextCancelCorrect() {
-        String text = confirmResult.getText();
-        if (text.equalsIgnoreCase("You selected Cancel")) {
-            return true;
-        } else return false;
+        if (solution) {
+            if (text.equalsIgnoreCase("You selected Ok")) {
+                return true;
+            }
+        } else {
+            if (text.equalsIgnoreCase("You selected Cancel")) {
+                return true;
+            }
+        }
+        return false;
     }
 }
+
