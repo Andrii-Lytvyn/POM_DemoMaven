@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="42f3fa5f-4f01-4cb3-a6a1-a630d1b6a869" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/AlertsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/AlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/AlertsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/BrowserWindowsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/BrowserWindowsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SelectMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/SelectMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/BrowserWindowsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/BrowserWindowsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/SelectTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/SelectTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +51,8 @@
       <recent name="com.demoqa.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertsTests.onButtonClickConfirmBoxTest">
-    <configuration name="AlertsTests.OnButtonClick5Sec" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SelectTests.selectValueTest">
+    <configuration name="BrowserWindowsTests.openNewWindowTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_DemoMaven" />
       <extension name="coverage">
         <pattern>
@@ -59,8 +61,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.AlertsTests" />
-      <option name="METHOD_NAME" value="OnButtonClick5Sec" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.BrowserWindowsTests" />
+      <option name="METHOD_NAME" value="openNewWindowTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -68,7 +70,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertsTests.clickButtonToSeeAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectTests.multiSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_DemoMaven" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +79,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.AlertsTests" />
-      <option name="METHOD_NAME" value="clickButtonToSeeAlert" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.SelectTests" />
+      <option name="METHOD_NAME" value="multiSelectTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlertsTests.onButtonClickConfirmBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectTests.selectOldStyleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_DemoMaven" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +97,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.AlertsTests" />
-      <option name="METHOD_NAME" value="onButtonClickConfirmBoxTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.SelectTests" />
+      <option name="METHOD_NAME" value="selectOldStyleTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,7 +106,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeFormTests.fillPracticeFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectTests.selectValueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_DemoMaven" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +115,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.PracticeFormTests" />
-      <option name="METHOD_NAME" value="fillPracticeFormTest" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.SelectTests" />
+      <option name="METHOD_NAME" value="selectValueTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeFormTests.fillPracticeFormWithFinalData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectTests.standartMultiSelectTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POM_DemoMaven" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.PracticeFormTests" />
-      <option name="METHOD_NAME" value="fillPracticeFormWithFinalData" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.SelectTests" />
+      <option name="METHOD_NAME" value="standartMultiSelectTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AlertsTests.onButtonClickConfirmBoxTest" />
-        <item itemvalue="TestNG.AlertsTests.OnButtonClick5Sec" />
-        <item itemvalue="TestNG.AlertsTests.clickButtonToSeeAlert" />
-        <item itemvalue="TestNG.PracticeFormTests.fillPracticeFormTest" />
-        <item itemvalue="TestNG.PracticeFormTests.fillPracticeFormWithFinalData" />
+        <item itemvalue="TestNG.SelectTests.selectValueTest" />
+        <item itemvalue="TestNG.SelectTests.standartMultiSelectTest" />
+        <item itemvalue="TestNG.SelectTests.multiSelectTest" />
+        <item itemvalue="TestNG.SelectTests.selectOldStyleTest" />
+        <item itemvalue="TestNG.BrowserWindowsTests.openNewWindowTest" />
       </list>
     </recent_temporary>
   </component>

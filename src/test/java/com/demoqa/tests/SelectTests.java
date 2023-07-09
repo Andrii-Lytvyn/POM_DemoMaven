@@ -29,5 +29,15 @@ public class SelectTests extends TestBase {
         new SelectMenuPage(wd).standartMultiSelect(2);
     }
 
+    @Test
+    public void selectValueTest() {
+        new SelectMenuPage(wd).selectValue(new String[]{"Group 1, option 1",
+                "Group 1, option 2",
+                "Group 2, option 1",
+                "Group 2, option 2",
+                "A root option",
+                "Another root option"
+        } , 5);
+    }
 
 }
