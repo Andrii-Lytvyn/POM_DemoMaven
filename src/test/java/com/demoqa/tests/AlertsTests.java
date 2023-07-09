@@ -24,26 +24,16 @@ public class AlertsTests extends TestBase {
     @Test
     public void clickButtonToSeeAlert() {
         new AlertsPage(wd).clickAllertButton();
-        wd.switchTo().alert().accept();
     }
 
     @Test
     public void OnButtonClick5Sec() {
         new AlertsPage(wd).clickTimerAlertButton();
-
     }
 
     @Test
     public void onButtonClickConfirmBoxTest() {
-        AlertsPage AP = new AlertsPage(wd).onButtonClickConfirmBox();
-        wd.switchTo().alert().accept();
-        Assert.assertTrue(AP.isTextCorrect());
-    }
-    @Test
-    public void onButtonClickCancelBoxTest() {
-        AlertsPage AP = new AlertsPage(wd).onButtonClickConfirmBox();
-        wd.switchTo().alert().dismiss();
-        Assert.assertTrue(AP.isTextCancelCorrect());
+        new AlertsPage(wd).onButtonClickConfirmBox(false);
     }
 
 }

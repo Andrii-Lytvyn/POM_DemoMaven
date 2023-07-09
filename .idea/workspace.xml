@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42f3fa5f-4f01-4cb3-a6a1-a630d1b6a869" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demoqa/pages/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/AlertsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demoqa/tests/AlertsTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2RqTY2txjdkflk7tpwQXMxdJV23" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Education/Projects/QA/POM_DemoMaven&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.demoqa.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AlertsTests.onButtonClickConfirmBoxTest">
+    <configuration name="AlertsTests.OnButtonClick5Sec" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM_DemoMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.AlertsTests" />
+      <option name="METHOD_NAME" value="OnButtonClick5Sec" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertsTests.clickButtonToSeeAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM_DemoMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.AlertsTests" />
+      <option name="METHOD_NAME" value="clickButtonToSeeAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertsTests.onButtonClickConfirmBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM_DemoMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.AlertsTests" />
+      <option name="METHOD_NAME" value="onButtonClickConfirmBoxTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeFormTests.fillPracticeFormTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM_DemoMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.PracticeFormTests" />
+      <option name="METHOD_NAME" value="fillPracticeFormTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PracticeFormTests.fillPracticeFormWithFinalData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POM_DemoMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.demoqa.tests.PracticeFormTests" />
+      <option name="METHOD_NAME" value="fillPracticeFormWithFinalData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AlertsTests.onButtonClickConfirmBoxTest" />
+        <item itemvalue="TestNG.AlertsTests.OnButtonClick5Sec" />
+        <item itemvalue="TestNG.AlertsTests.clickButtonToSeeAlert" />
+        <item itemvalue="TestNG.PracticeFormTests.fillPracticeFormTest" />
+        <item itemvalue="TestNG.PracticeFormTests.fillPracticeFormWithFinalData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42f3fa5f-4f01-4cb3-a6a1-a630d1b6a869" name="Changes" comment="" />
+      <created>1687976656861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687976656861</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

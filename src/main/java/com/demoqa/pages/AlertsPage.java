@@ -11,13 +11,14 @@ import org.testng.Assert;
 import java.time.Duration;
 
 public class AlertsPage extends BasePage {
+
     public AlertsPage(WebDriver wd) {
         super(wd);
     }
 
-    public boolean isAlertPresent() {
+    public boolean isAlertPresent(int duration) {
 
-        Alert alert = new WebDriverWait(wd, Duration.ofSeconds(6))
+        Alert alert = new WebDriverWait(wd, Duration.ofSeconds(duration))
                 .until(ExpectedConditions.alertIsPresent());
         if (alert == null) {
             return false;
@@ -53,6 +54,7 @@ public class AlertsPage extends BasePage {
 
     public AlertsPage clickAllertButton() {
         clickWithJSExecutor(alertButton, 0, 300);
+        wd.switchTo().alert().accept();
         return this;
     }
 
@@ -61,7 +63,7 @@ public class AlertsPage extends BasePage {
 
     public AlertsPage clickTimerAlertButton() {
         clickWithJSExecutor(timerAlertButton, 0, 300);
-        Assert.assertTrue(isAlertPresent());
+        Assert.assertTrue(isAlertPresent(6));
         return this;
     }
 
@@ -70,8 +72,16 @@ public class AlertsPage extends BasePage {
     @FindBy(id = "confirmResult")
     WebElement confirmResult;
 
-    public AlertsPage onButtonClickConfirmBox() {
+    public AlertsPage onButtonClickConfirmBox(boolean solution) {
+        AlertsPage AP = new AlertsPage(wd);
         clickWithJSExecutor(confirmButton, 0, 300);
+        if (solution) {
+            wd.switchTo().alert().accept();
+            Assert.assertTrue(AP.isTextCorrect());
+        }else {
+            wd.switchTo().alert().dismiss();
+            Assert.assertTrue(AP.isTextCancelCorrect());
+        }
         return this;
     }
 
